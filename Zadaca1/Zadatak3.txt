@@ -1,0 +1,27 @@
+package lekcija2;
+
+import java.util.Scanner;
+
+/**
+ * Napišite program koji uèitava broj stopa,
+ *  konvertuje ih u metre te ispisuje rezultat.  
+ *  1 stopa = 0.305 metara
+ */
+
+public class Zadatak3 {
+
+	public static void main(String[] args) {
+		//Kreiraj skener objekat
+		Scanner unos = new Scanner(System.in);
+		//Izbaci pitanje korisniku da unese broj stopa
+		System.out.print("Molimo unesite broj stopa: ");
+		double stope = unos.nextDouble();
+
+		double metri = stope * 0.305;
+		
+		//Ispisi rezultat
+		System.out.println(stope + " stopa iznosi " + metri + " metara.");
+
+	}
+
+}

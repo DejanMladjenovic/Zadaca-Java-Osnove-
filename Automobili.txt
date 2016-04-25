@@ -1,0 +1,11 @@
+Volkswagen Fox      16900  2010 5000.00 
+Volkswagen Fox      26000  2011 6000.00 
+Chevrolet  Matiz    23700  2010 5000.00 
+Chevrolet  Spark    21400  2011 5100.00 
+Daihatsu   Cuore    8950   2007 5140.00 
+Hyundai    Style    10678  2009 5290.00 
+Toyota     Yaris    28800  2014 13790.00 
+Toyota     Yaris    5      2015 14590.00 
+Volvo      XC       94481  2013 21900.00 
+Ford       Maverick 274000 1995 700.00 
+Ford       Fiesta   234000 1996 700.00 

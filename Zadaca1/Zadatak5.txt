@@ -1,0 +1,37 @@
+package lekcija2;
+
+import java.util.Scanner;
+
+/**
+ * Deklarisati varijablu a i dodjeliti joj vrijednost u intervalu 1 do 10. 
+ * Napisati korisniku da pogaða broj od 1 do 10 i uèitati od korisnika vrijednost varijable b.
+ *  Ako su vrijednosti a i b iste napisati korisniku da je pogodio broj.
+
+ * @author Dejan
+ *
+ */
+
+public class PogodiBroj {
+
+	public static void main(String[] args) {
+		
+		int a = 7;
+		
+		Scanner unos = new Scanner(System.in);
+		
+		//Ispisi pitane korisniku da unese cijeli broj od 1 do 10
+		System.out.println("Molimo unesite cijeli broj izmedju 1 i 10: ");
+		int b = unos.nextInt();
+		
+		if (a == b) {
+			System.out.println("Pogodili ste. " + b + " je trazeni broj.");
+		} 
+		else {
+			System.out.println("Pokusajte ponovo!");
+		}
+				
+		
+
+	}
+
+}

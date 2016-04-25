@@ -1,0 +1,31 @@
+package lekcija2;
+
+import java.util.Scanner;
+
+/**Napišite program koji uèitava od korisnika temperaturu u Celzijusima (tip podataka double)
+ *  te ih pretvara u Fahrenheite i ispisuje korisniku.
+ *  Formula za konverziju:
+ *     Fahrenheit = (9 / 5) * celsius + 32 
+ * @author Dejan
+ *
+ */
+
+public class Zadatak1 {
+
+	public static void main(String[] args) {
+		//Kreiraj skener objekat
+		Scanner unos = new Scanner(System.in);
+		
+		//Izbaci pitanje korisniku da unese temperaturu u Celzijusima
+		System.out.print("Molimo unesite temperaturu u Celzijusima: ");
+		double celzijus = unos.nextDouble();
+		
+		double fahrenheit = (9.0/5) * celzijus + 32;
+		
+		//Ispisi rezultat
+		System.out.println(celzijus + " stepeni Celzijusa iznosi " + fahrenheit + " Farenhajta.");
+		
+		
+	}
+
+}

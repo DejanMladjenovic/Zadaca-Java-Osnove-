@@ -1,0 +1,33 @@
+package lekcija2;
+
+import java.util.Scanner;
+
+/**
+ * Napisati program koji uèitava ukupan iznos raèuna i stopu napojnice te
+ * izraèunava kolika je napojnica i koliki je iznos za naplatiti
+ */
+
+public class Zadatak4 {
+
+	public static void main(String[] args) {
+		// Kreiraj skener objekat
+		Scanner unos = new Scanner(System.in);
+
+		// Izbaci pitanje korisniku da unese ukupan iznos racuna i stopu
+		// napojnice
+		System.out
+				.println("Molimo vas unesite ukupan iznos i stopu napojnice: ");
+		double iznos = unos.nextDouble();
+		double stopaNapojnice = unos.nextDouble();
+
+		stopaNapojnice = stopaNapojnice / 100.0;
+
+		double napojnica = iznos * stopaNapojnice;
+		double ukupanIznos = iznos + napojnica;
+
+		// Ispisi rezultat
+		System.out.println("Napojnica iznosi " + napojnica+ " KM a ukupan iznos za uplatiti iznosi "
+		+ ukupanIznos + " KM. ");
+
+	}
+}

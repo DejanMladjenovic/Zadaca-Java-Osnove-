@@ -1,0 +1,30 @@
+package lekcija2;
+
+import java.util.Scanner;
+
+/**
+ *Napisati program koji ucitava dva broja
+ * i ispisuje da li je prvi veci od kvadrata drugog broja 
+ */
+
+public class PoredjenjeBrojeva {
+
+	public static void main(String[] args) {
+		//Kreiraj skener objekat
+		Scanner unos = new Scanner(System.in);
+		
+		//Izbaci pitanje korisniku da unese dva broja
+		System.out.println("Molimo unesite dva cijela broja: ");
+		int broj1 = unos.nextInt();
+		int broj2 = unos.nextInt();
+		
+		if (broj1 > (broj2 * broj2)) {
+			System.out.println("Broj " + broj1 + " je veci od kvadrata broja " + broj2 +".");
+		}
+		else {
+			System.out.println("Broj " + broj1 + " nije veci od kvadrata broja " + broj2 +".");
+		}
+
+	}
+
+}
